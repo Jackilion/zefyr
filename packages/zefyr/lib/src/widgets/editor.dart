@@ -115,7 +115,7 @@ class _ZefyrEditorState extends State<ZefyrEditor> {
 
   void _handleChange() {
     if (_scope.focusOwner == FocusOwner.none) {
-      hideToolbar();
+      // hideToolbar();
     } else if (!hasToolbar) {
       showToolbar();
     } else {
