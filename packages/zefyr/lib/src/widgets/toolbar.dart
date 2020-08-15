@@ -102,7 +102,7 @@ class ZefyrToolbar extends StatefulWidget implements PreferredSizeWidget {
   const ZefyrToolbar({
     Key key,
     @required this.editor,
-    this.autoHide = true,
+    this.autoHide = false,
     this.delegate,
   }) : super(key: key);
 
