@@ -15,6 +15,7 @@ class InputConnectionController implements TextInputClient {
   //
   // public members
   //
+  void performPrivateCommand(String action, Map<String, dynamic> data) {}
 
   final RemoteValueChanged onValueChanged;
 
